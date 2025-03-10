@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India Won Championship Trophy 2025</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    /* Base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    /* Header styles */
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/1.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+      position: relative;
+    }
+
+    .trophy-icon {
+      width: 60px;
+      height: 60px;
+      color: #f5c518;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background-color: #f5c518;
+      color: #000;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #fff;
+      transform: translateY(-3px);
+    }
+
+    /* Navigation styles */
+    .nav-container {
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 5%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .logo span {
+      color: #f5c518;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links li a {
+      position: relative;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links li a:hover {
+      color: #f5c518;
+    }
+
+    .nav-links li a::after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background-color: #f5c518;
+      bottom: -5px;
+      left: 0;
+      transition: width 0.3s ease;
+    }
+
+    .nav-links li a:hover::after {
+      width: 100%;
+    }
+
+    .hamburger {
+      display: none;
+      cursor: pointer;
+    }
+
+    .hamburger div {
+      width: 25px;
+      height: 3px;
+      background-color: #333;
+      margin: 5px;
+      transition: all 0.3s ease;
+    }
+
+    /* Slider styles */
+    .slider-container {
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .slide {
+      position: relative;
+      max-width: 100%;
+      height: 500px;
+    }
+    
+    .slide img, .slide-video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .slide-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+    }
+    
+    .slide-controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+    
+    .slide-btn {
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    
+    .slide-btn:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+    
+    .slide-dots {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    .dot {
+      width: 12px;
+      height: 12px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .dot.active {
+      background: #fff;
+      transform: scale(1.2);
+    }
+
+    /* Section styles */
+    section {
+      padding: 80px 5%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+      font-size: 2rem;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .section-title h2::after {
+      content: '';
+      position: absolute;
+      width: 60%;
+      height: 3px;
+      background-color: #f5c518;
+      bottom: 0;
+      left: 20%;
+    }
+
+    /* Achievement section */
+    .achievement-section {
+      background-color: #f8f8f8;
+    }
+
+    .achievement-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .achievement-card {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .achievement-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .achievement-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .achievement-content {
+      padding: 20px;
+    }
+
+    .achievement-content h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    /* Stats section */
+    .stats-section {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    .stats-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+
+    .stat-item {
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      backdrop-filter: blur(5px);
+    }
+
+    .stat-number {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #f5c518;
+    }
+
+    .stat-label {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+
+    /* Gallery section */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      height: 200px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 15px;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+      color: white;
+      transform: translateY(100%);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      transform: translateY(0);
+    }
+
+    /* Testimonial styles */
+    .testimonial-section {
+      background-color: #f8f8f8;
+    }
+    
+    .testimonial-container {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .testimonial-slider {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .testimonial {
+      min-width: 100%;
+      padding: 30px;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+    
+    .testimonial-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px;
+      border: 3px solid #f5c518;
+    }
+    
+    .testimonial-text {
+      font-style: italic;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    
+    .testimonial-name {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+    
+    .testimonial-role {
+      color: #777;
+    }
+    
+    .testimonial-dots {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 60px 5% 30px;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-bottom: 30px;
+    }
+
+    .footer-logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer-desc {
+      margin-bottom: 20px;
+      color: #aaa;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      background-color: #333;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .social-icon:hover {
+      background-color: #f5c518;
+      color: #333;
+      transform: translateY(-3px);
+    }
+
+    .footer-title {
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+
+    .footer-title::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background-color: #f5c518;
+      bottom: 0;
+      left: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .footer-links li:hover {
+      transform: translateX(5px);
+      color: #f5c518;
+    }
+
+    .copyright {
+      text-align: center;
+      padding-top: 30px;
+      border-top: 1px solid #444;
+      color: #aaa;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 992px) {
+      .nav-links {
+        gap: 15px;
+      }
+      
+      .slide {
+        height: 400px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+      
+      .hamburger {
+        display: block;
+        z-index: 1001;
+      }
+      
+      .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 70%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.5s ease;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+      }
+      
+      .nav-links.active {
+        right: 0;
+      }
+      
+      .nav-links li {
+        margin: 15px 0;
+      }
+      
+      .hamburger.active .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+      
+      .hamburger.active .line2 {
+        opacity: 0;
+      }
+      
+      .hamburger.active .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+      
+      .slide {
+        height: 350px;
+      }
+      
+      .achievement-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .stats-container {
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 576px) {
+      header {
+        padding: 70px 15px;
+      }
+      
+      header h1 {
+        font-size: 2rem;
+      }
+      
+      section {
+        padding: 50px 15px;
+      }
+      
+      .slide {
+        height: 250px;
+      }
+      
+      .slide-content h2 {
+        font-size: 1.2rem;
+      }
+      
+      .slide-content p {
+        font-size: 0.9rem;
+      }
+      
+      .stats-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .footer-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header id="home">
+    <svg class="trophy-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="8 21 8 22 16 22 16 21"></polyline>
+      <path d="M12 17a5 5 0 0 0 5-5c0-2.76-2.5-5-5-9-2.5 4-5 6.24-5 9a5 5 0 0 0 5 5z"></path>
+      <path d="M12 17v4"></path>
+    </svg>
+    <h1>INDIA CHAMPIONS 2025</h1>
+    <p>Celebrating India's historic victory in the 2025 Championship Trophy</p>
+    <a href="#highlights" class="btn-primary">Watch Highlights</a>
+  </header>
+
+  <div class="nav-container">
+    <nav>
+      <div class="logo">INDIA<span>CHAMPIONS</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#statistics">Statistics</a></li>
+        <li><a href="#testimonials">Tributes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="slider-container" id="highlights">
+    <div class="slider">
+        <div class="slide">
+            <video autoplay muted loop class="slide-video">
+              <source src="img/11.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="slide-content">
+              <h2>The Decisive Moment</h2>
+              <p>The match-winning performance that sealed India's victory</p>
+            </div>
+          </div>
+      <div class="slide">
+        <img src="img/1.jpg" alt="Championship Moment">
+        <div class="slide-content">
+          <h2>The Winning Moment</h2>
+          <p>Captain lifts the prestigious trophy after a nail-biting final</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/3.jpg" alt="Team Celebration">
+        <div class="slide-content">
+          <h2>Team Celebration</h2>
+          <p>The squad celebrates their historic achievement after the final whistle</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="img/1.jpg" alt="Fan Celebration">
+        <div class="slide-content">
+          <h2>Nationwide Celebrations</h2>
+          <p>Millions of fans across India celebrate the historic achievement</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide-controls">
+      <button class="slide-btn prev-btn">&lt;</button>
+      <button class="slide-btn next-btn">&gt;</button>
+    </div>
+    <div class="slide-dots"></div>
+  </div>
+
+  <section class="achievement-section" id="team">
+    <div class="section-title">
+      <h2>CHAMPIONSHIP JOURNEY</h2>
+    </div>
+    <div class="achievement-grid">
+      <div class="achievement-card">
+        <img src="img/Team.jpg" alt="Group Stage" class="achievement-img">
+        <div class="achievement-content">
+          <h3>Dominating the Group Stage</h3>
+          <p>India remained undefeated through all group matches, setting the tone for their championship run.</p>
+        </div>
+      </div>
+      <div class="achievement-card">
+        <img src="img/Team India.jpg" alt="Semifinal" class="achievement-img">
+        <div class="achievement-content">
+          <h3>Semifinal Masterclass</h3>
+          <p>The team delivered a tactical masterclass against the defending champions to reach the final.</p>
+        </div>
+      </div>
+      <div class="achievement-card">
+        <img src="img/1.jpg" alt="Final" class="achievement-img">
+        <div class="achievement-content">
+          <h3>Historic Final Victory</h3>
+          <p>India claimed the championship with an extraordinary performance in the final match.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section" id="statistics">
+    <div class="section-title">
+      <h2>CHAMPIONSHIP STATISTICS</h2>
+    </div>
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number" data-count="8">0</div>
+        <div class="stat-label">Matches Won</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="1876">0</div>
+        <div class="stat-label">Total Runs</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="85">0</div>
+        <div class="stat-label">Wickets Taken</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" data-count="24">0</div>
+        <div class="stat-label">Sixes Hit</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section" id="gallery">
+    <div class="section-title">
+      <h2>CHAMPIONSHIP GALLERY</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="img/3.jpg" alt="Gallery Image 1">
+        <div class="gallery-overlay">Trophy Celebration</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/4.jpg" alt="Gallery Image 2">
+        <div class="gallery-overlay">Team Huddle</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/5.jpg" alt="Gallery Image 3">
+        <div class="gallery-overlay">Captain's Speech</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/6.jpg" alt="Gallery Image 4">
+        <div class="gallery-overlay">Fan Celebrations</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/7.jpg" alt="Gallery Image 5">
+        <div class="gallery-overlay">Victory Parade</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/8.jpg" alt="Gallery Image 6">
+        <div class="gallery-overlay">Player of the Tournament</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/9.jpg" alt="Gallery Image 7">
+        <div class="gallery-overlay">Dressing Room</div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/10.jpg" alt="Gallery Image 8">
+        <div class="gallery-overlay">Homecoming</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial-section" id="testimonials">
+    <div class="section-title">
+      <h2>TRIBUTES & TESTIMONIALS</h2>
+    </div>
+    <div class="testimonial-container">
+      <div class="testimonial-slider">
+        <div class="testimonial">
+          <img src="img/2.jpg" alt="Former Captain" class="testimonial-img">
+          <p class="testimonial-text">"This team has made history and has shown incredible determination throughout the championship. Their victory will inspire generations of young athletes across the country."</p>
+          <p class="testimonial-name">Former Team Captain</p>
+          <p class="testimonial-role">Rohit Sharma</p>
+        </div>
+        <div class="testimonial">
+          <img src="img/12.jpg" alt="Sports Minister" class="testimonial-img">
+          <p class="testimonial-text">"A proud moment for our nation. This victory is a testament to the hard work and dedication of our players, coaches, and support staff. The entire country stands united in celebration."</p>
+          <p class="testimonial-name">Sports Minister</p>
+          <p class="testimonial-role">Government of India</p>
+        </div>
+        <!-- <div class="testimonial">
+          <img src="img/2.jpg" alt="Sports Analyst" class="testimonial-img">
+          <p class="testimonial-text">"The tactical approach and mental strength displayed by Team India throughout this championship was exceptional. They've set a new standard for future tournaments."</p>
+          <p class="testimonial-name">Cricket Analyst</p>
+          <p class="testimonial-role">Sports Commentator</p>
+        </div> -->
+      </div>
+      <div class="testimonial-dots"></div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-container">
+      <div class="footer-column">
+        <div class="footer-logo">INDIA<span>CHAMPIONS</span></div>
+        <p class="footer-desc">Celebrating India's historic Championship Trophy victory in 2025. A moment of pride for the entire nation.</p>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61550807416164" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/panchananpal/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#statistics">Statistics</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">More Information</h3>
+        <ul class="footer-links">
+          <li><a href="#">About the Championship</a></li>
+          <li><a href="#">Team Profile</a></li>
+          <li><a href="#">Match Reports</a></li>
+          <li><a href="#">Media Coverage</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-title">Contact Us</h3>
+        <ul class="footer-links">
+          <li>Email: panchananpal13@gmail.com</li>
+          <li>Phone: +91 9800400661</li>
+          <li>Address: Ghatal, Paschim Medinipur</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 India Champions. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile Navigation
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a nav link
+    document.querySelectorAll('.nav-links li a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    // Main Image Slider
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const dotsContainer = document.querySelector('.slide-dots');
+    
+    let currentSlide = 0;
+    const slideCount = slides.length;
+
+    // Create dots
+    slides.forEach((_, i) => {
+      const dot = document.createElement('div');
+      dot.classList.add('dot');
+      if (i === 0) dot.classList.add('active');
+      dot.addEventListener('click', () => goToSlide(i));
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = document.querySelectorAll('.dot');
+
+    // Initialize slider
+    function initSlider() {
+      slider.style.width = `${slideCount * 100}%`;
+      slides.forEach(slide => {
+        slide.style.width = `${100 / slideCount}%`;
+      });
+    }
+
+    function goToSlide(slideIndex) {
+      if (slideIndex < 0) {
+        currentSlide = slideCount - 1;
+      } else if (slideIndex >= slideCount) {
+        currentSlide = 0;
+      } else {
+        currentSlide = slideIndex;
+      }
+
+      slider.style.transform = `translateX(-${currentSlide * (100 / slideCount)}%)`;
+      
+      // Update active dot
+      dots.forEach(dot => dot.classList.remove('active'));
+      dots[currentSlide].classList.add('active');
+    }
+
+    prevBtn.addEventListener('click', () => {
+      goToSlide(currentSlide - 1);
+    });
+
+    nextBtn.addEventListener('click', () => {
+      goToSlide(currentSlide + 1);
+    });
+
+    // Add touch swipe functionality for mobile
+    let touchStartX = 0;
+    let touchEndX = 0;
+    
+    slider.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, false);
+    
+    slider.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, false);
+    
+    function handleSwipe() {
+  if (touchStartX - touchEndX > 50) {
+    // Swipe left
+    goToSlide(currentSlide + 1);
+  } else if (touchEndX - touchStartX > 50) {
+    // Swipe right
+    goToSlide(currentSlide - 1);
+  }
+}
+
+// Auto-slide functionality
+let slideInterval = setInterval(() => {
+  goToSlide(currentSlide + 1);
+}, 5000);
+
+// Pause auto-slide on hover
+slider.addEventListener('mouseenter', () => {
+  clearInterval(slideInterval);
+});
+
+slider.addEventListener('mouseleave', () => {
+  slideInterval = setInterval(() => {
+    goToSlide(currentSlide + 1);
+  }, 5000);
+});
+
+// Initialize slider
+initSlider();
+
+// Testimonial Slider
+const testimonialSlider = document.querySelector('.testimonial-slider');
+const testimonials = document.querySelectorAll('.testimonial');
+const testimonialDotsContainer = document.querySelector('.testimonial-dots');
+let currentTestimonial = 0;
+const testimonialCount = testimonials.length;
+
+// Create testimonial dots
+testimonials.forEach((_, i) => {
+  const dot = document.createElement('div');
+  dot.classList.add('dot');
+  if (i === 0) dot.classList.add('active');
+  dot.addEventListener('click', () => goToTestimonial(i));
+  testimonialDotsContainer.appendChild(dot);
+});
+
+const testimonialDots = document.querySelectorAll('.testimonial-dots .dot');
+
+function goToTestimonial(index) {
+  if (index < 0) {
+    currentTestimonial = testimonialCount - 1;
+  } else if (index >= testimonialCount) {
+    currentTestimonial = 0;
+  } else {
+    currentTestimonial = index;
+  }
+
+  testimonialSlider.style.transform = `translateX(-${currentTestimonial * 100}%)`;
+  
+  // Update active dot
+  testimonialDots.forEach(dot => dot.classList.remove('active'));
+  testimonialDots[currentTestimonial].classList.add('active');
+}
+
+// Auto-switch testimonials
+setInterval(() => {
+  goToTestimonial(currentTestimonial + 1);
+}, 7000);
+
+// Animate stats numbers
+const statNumbers = document.querySelectorAll('.stat-number');
+let statsAnimated = false;
+
+function animateStats() {
+  if (statsAnimated) return;
+  
+  statNumbers.forEach(stat => {
+    const targetValue = parseInt(stat.getAttribute('data-count'));
+    const duration = 2000; // 2 seconds
+    const increment = targetValue / (duration / 16);
+    let currentValue = 0;
+    
+    const timer = setInterval(() => {
+      currentValue += increment;
+      if (currentValue >= targetValue) {
+        clearInterval(timer);
+        stat.textContent = targetValue;
+      } else {
+        stat.textContent = Math.floor(currentValue);
+      }
+    }, 16);
+  });
+  
+  statsAnimated = true;
+}
+
+// Trigger stats animation when the section is in view
+const statsSection = document.querySelector('.stats-section');
+
+function checkIfInView() {
+  const rect = statsSection.getBoundingClientRect();
+  const isInView = (
+    rect.top >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  );
+  
+  if (isInView) {
+    animateStats();
+    window.removeEventListener('scroll', checkIfInView);
+  }
+}
+
+window.addEventListener('scroll', checkIfInView);
+checkIfInView(); // Check on initial load
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    const targetId = this.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+    
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - 70, // Adjust for fixed header
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+</script>
