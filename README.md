@@ -3,6 +3,7 @@ Welcome to the India Champions 2025 repository! This project is a celebration of
 
 ### Weblink: [Live Website](https://india-nu.vercel.app/)
 ## 📸 Screenshots:
+<img width="450px;" src="https://github.com/panchapal/INDIA-/blob/main/img/20.png"/>
 <img width="450px;" src="https://github.com/panchapal/INDIA-/blob/main/img/13.png"/>
 <img width="450px;" src="https://github.com/panchapal/INDIA-/blob/main/img/14.png"/>
 <img width="450px;" src="https://github.com/panchapal/INDIA-/blob/main/img/15.png"/>
